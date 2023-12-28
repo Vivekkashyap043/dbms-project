@@ -1,0 +1,11 @@
+POST http://localhost:5000/movie
+Authorization: Bearer "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1ODkwNGFlMjcwMDIzMDBmZGMyZDUzNiIsImlhdCI6MTcwMzQ4NDk4MSwiZXhwIjoxNzA0MDg5NzgxfQ.lAZM5DArb2IaY0BZW_iCwEOhDrsLnPxwqWG68yhslAA"
+
+{
+    "title": "Salar",
+    "description": "new movie",
+    "actors":["Prabhas","Raina"],
+    "releaseDate":"2023-08-25",
+    "posterUrl":"sample",
+    "featured": true
+}
